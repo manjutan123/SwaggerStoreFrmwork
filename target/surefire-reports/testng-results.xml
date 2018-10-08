@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5258" started-at="2018-10-05T08:53:49Z" finished-at="2018-10-05T08:53:54Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="5258" started-at="2018-10-05T08:53:49Z" finished-at="2018-10-05T08:53:54Z">
+      <class name="storeTestcase.Endtoendorder">
+        <test-method status="PASS" signature="setuppre()[pri:0, instance:storeTestcase.Endtoendorder@327471b5]" name="setuppre" is-config="true" duration-ms="473" started-at="2018-10-05T14:23:49Z" finished-at="2018-10-05T14:23:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setuppre -->
+        <test-method status="PASS" signature="setdata()[pri:0, instance:storeTestcase.Endtoendorder@327471b5]" name="setdata" duration-ms="2576" started-at="2018-10-05T14:23:50Z" finished-at="2018-10-05T14:23:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setdata -->
+        <test-method status="PASS" signature="readData()[pri:0, instance:storeTestcase.Endtoendorder@327471b5]" name="readData" duration-ms="1074" started-at="2018-10-05T14:23:52Z" depends-on-methods="storeTestcase.Endtoendorder.setdata" finished-at="2018-10-05T14:23:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readData -->
+        <test-method status="PASS" signature="dropData()[pri:0, instance:storeTestcase.Endtoendorder@327471b5]" name="dropData" duration-ms="1116" started-at="2018-10-05T14:23:53Z" depends-on-methods="storeTestcase.Endtoendorder.readData" finished-at="2018-10-05T14:23:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropData -->
+      </class> <!-- storeTestcase.Endtoendorder -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
